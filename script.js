@@ -1,7 +1,7 @@
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('#main'),
-    smooth: true
-});
+// const scroll = new LocomotiveScroll({
+//     el: document.querySelector('#main'),
+//     smooth: true
+// });
 
 function page4Animation()
 {
@@ -59,8 +59,12 @@ function loaderAnimation() {
     var loader = document.querySelector("#loader")
     setTimeout(function () {
         loader.style.top = "-100%"
+        // loader.style.display = "none";
     }, 4200)
 }
+
+
+
 
 loaderAnimation();
 menuAnimation();

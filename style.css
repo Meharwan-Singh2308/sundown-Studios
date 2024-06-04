@@ -339,7 +339,7 @@ nav h3 {
 #fixed-image {
   height: 30vw;
   width: 24vw;
-  background-color: red;
+  /* background-color: red; */
   border-radius: 10px;
   position: fixed;
   z-index: 99;
@@ -595,6 +595,8 @@ nav h3 {
 
 }
 
+
+/* .overlay */
 #loader{
   height: 100%;
   width: 100%;
@@ -648,6 +650,33 @@ nav h3 {
       font-size: 9vw;   
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 
   nav h3 {
